@@ -1,0 +1,32 @@
+.header {
+  height: 200px;
+  width: 2300px;
+  background-color: rgb(186, 76, 76);
+}
+.fote {
+  height: 200px;
+  width: 2300px;
+  background-color: rgb(215, 217, 77);
+}
+body {
+  background-color: rgb(13, 9, 243);
+}
+.container {
+  flex-direction: row;
+}
+@media (min-width: 800px) {
+  body {
+    background-color: rgb(255, 0, 0);
+  }
+  .container {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    background-color: green;
+  }
+  .container {
+    flex-direction: row;
+  }
+}
