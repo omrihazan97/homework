@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./one.css" />
+  </head>
+  <body>
+    קופסא ראשית
+    <div class="products">
+      <div class="product">
+        <h2>הטלויזיה</h2>
+        <p>הטלויזיה עולה 1000</p>
+        <button onclick="show(0)">Add To Cart</button>
+        <!--  מספר אני מכוון את הפונקציה לנקודה מדוייקת במערך "show(0) "עקב רשימת  -->
+      </div>
+
+      <div class="product">
+        <h2>סוני</h2>
+        <p>מחירו של הסוני 3000 שקל</p>
+        <button onclick="show(1)">Add To Cart</button>
+      </div>
+      <div class="shoppingCart" id="shoppingCart">
+        <p>111</p>
+      </div>
+
+      <div class="product">
+        <h2>המחשב</h2>
+        <p>מחירו של המחשב 4000 שקל</p>
+        <button onclick="show(2)">Add To Cart</button>
+      </div>
+
+      <div class="product">
+        <h2>מכונת כביסה</h2>
+        <p>מחירה של מכונת הכביסה 1200 שקל .</p>
+        <button onclick="show(3)">Add To Cart</button>
+      </div>
+    </div>
+
+    <script src="./one.js"></script>
+  </body>
+</html>

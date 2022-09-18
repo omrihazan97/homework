@@ -1,0 +1,17 @@
+body {
+  text-align: right;
+}
+.butn {
+  background-color: antiquewhite;
+}
+button {
+  background-color: blanchedalmond;
+}
+h2 {
+  font-size: 35px;
+}
+.shoppingCart {
+  width: 150px;
+  height: 150px;
+  background-color: aquamarine;
+}
