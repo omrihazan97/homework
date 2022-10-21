@@ -1,0 +1,24 @@
+@mixin divis($is: red) {
+  height: 150px;
+  width: 150px;
+  background-color: $is;
+  font-size: 40px;
+}
+
+.good {
+  @include divis($is: green);
+}
+.bad {
+  @include divis();
+}
+
+@mixin inputnew {
+  height: 15px;
+  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+  color: black;
+}
+.name {
+  @include inputnew();
+}

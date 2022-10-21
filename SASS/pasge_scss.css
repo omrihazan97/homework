@@ -1,0 +1,23 @@
+.good {
+  height: 150px;
+  width: 150px;
+  background-color: green;
+  font-size: 40px;
+}
+
+.bad {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  font-size: 40px;
+}
+
+.name {
+  height: 15px;
+  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+  color: black;
+}
+
+/*# sourceMappingURL=pasge_scss.css.map */
