@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="brad,croissant,Contact,sweet" />
+    <meta name="keyword" content="croissant,Contact" />
+    <title>loginpge</title>
+    <link rel="stylesheet" href="../css/homepage.css" />
+  </head>
+  <body>
+    <!-- תפריט מרחף בעת תזותת הדף  -->
+    <button class="butnfloot"> <a href="../html/homepage.html">homepage</a></button><br><br>
+        <button class="butnfloot"> <a href="./Contact Us.html">Contact Us</a></button><br><br>
+        <button class="butnfloot"> <a href="./Pastry catalog.html">Pastry catalog</a></button><br><br>
+        <button class="butnfloot"> <a href="../html/loginpge.html">login</a></button><br><br>
+        <button class="butnfloot"> <a href="../html/about_us.html">About Us</a></button>
+    <h1 class="betterTitle">Sign up</h1>
+    <div class="main_block">
+    <form action="registration" class="Details-div">
+      <input
+        class="name"
+        type="name"
+        id="nameinput"
+        placeholder="Enter Name"
+      /><br />
+      <input
+        class="Last-name"
+        type="Last name"
+        id="lastnameinput"
+        placeholder="Enter Last name"
+      /><br />
+
+      <input
+        type="tel"
+        id="phoneinput"
+        name="phone"
+        placeholder="Enter number"
+        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+        required
+      />
+      <br />
+      <input type="number" id="ageinput" placeholder="Enter your age" /><br />
+
+      <input
+        class="email"
+        type="Email"
+        id="emailinput"
+        placeholder="Enter Email"
+      /><br />
+      <input
+        class="password"
+        type="password"
+        id="passwordinput"
+        placeholder="Enter Password"
+      />
+      <input type="submit" name="" />
+      <button onclick="details()">click me</button>
+      <br />
+      <!-- כפתור המקפיץ הודעה תודה שנרשמתה -->
+      <script src="./js/sigin up.js"></script>
+    </form>
+  </body>
+</html>

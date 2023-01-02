@@ -1,0 +1,157 @@
+h1 {
+  text-align: center;
+}
+.container {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.header {
+  /* width: 30%; */
+  float: left;
+  margin: 10px;
+
+  /* background-color: antiquewhite; */
+}
+.img_div {
+  flex: 1;
+  width: 30%;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  height: 50px;
+  margin: 1.5%;
+}
+.Lower_block {
+  width: 100px;
+  height: 100px;
+  float: none;
+  /* background-color: blueviolet; */
+}
+
+.box2 {
+  flex: 1;
+}
+.box3 {
+  flex: 1;
+}
+@media (min-width: 600px) {
+  body {
+    background-color: #b87473;
+  }
+  .container {
+    flex-direction: row;
+  }
+}
+@media (min-width: 800px) {
+  body {
+    background-color: #c4c77d;
+  }
+  .container {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    background-color: #6294a5;
+  }
+  .container {
+    flex-direction: row;
+  }
+}
+
+.lost_one {
+  height: 150px;
+  width: 100px;
+}
+.Contact_Us {
+  /* בלוק כללי */
+  height: 450px;
+  width: 450px;
+  float: left;
+  font-size: larger;
+  margin: 1.5%;
+}
+.snd_me {
+  /* בלוק עליון */
+  height: 650px;
+  width: 1350px;
+  background-image: url(/img/butter\ Croissant144444.jpg);
+}
+.button_homepage {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  /* בלוק תחתון */
+  height: 50px;
+  width: 450px;
+}
+.main_block {
+  border-radius: 2rem;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  height: 750px;
+  width: 750px;
+  text-align: center;
+}
+
+.second_block {
+  border-radius: 2rem;
+  height: 100px;
+  width: 720px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.block1 {
+  border-radius: 2rem;
+
+  height: 250px;
+  width: 720px;
+}
+.fote {
+  border-radius: 2rem;
+
+  height: 100px;
+  width: 720px;
+  position: static;
+  border: 3px solid #d3da1b;
+}
+button {
+  color: #100720;
+  background-color: #9ed2c6;
+  border: 0;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1.2rem;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+
+.one {
+  /* background-color: #fffde3; */
+  border: 0;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 1.2rem;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+.A {
+  font-size: larger;
+}
+.floting {
+  position: fixed;
+}
+.butnfloot {
+  font-size: 14px;
+  float: left;
+  position: fixed;
+}
